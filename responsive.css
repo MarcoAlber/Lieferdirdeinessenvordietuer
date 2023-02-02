@@ -1,0 +1,277 @@
+@media (max-width: 1300px) {
+    .aroundContainerBelowFirstImg {
+        width: 77vw;
+    }
+
+    .containerBelowFirstImg {
+        width: 75vw;
+    }
+
+    .menu {
+        margin-left: 200px;
+    }
+
+    .supplierNamePlusButtons {
+        padding-left: 200px;
+    }
+
+    .rating {
+        padding-left: 200px;
+    }
+
+    .delivery {
+        padding-left: 200px;
+    }
+
+    .logoSupplier {
+        left: 200px;
+    }
+
+    .forFree {
+        margin-left: 200px;
+    }
+
+    .shoppingBasketScroll {
+        width: calc(100% - 75vw);
+    }
+}
+
+@media (max-width: 1050px) {
+    .containerBelowFirstImg {
+        width: 70vw;
+    }
+
+    .menu {
+        margin-left: 150px;
+    }
+
+    .supplierNamePlusButtons {
+        padding-left: 150px;
+    }
+
+    .rating {
+        padding-left: 150px;
+    }
+
+    .delivery {
+        padding-left: 150px;
+    }
+
+    .logoSupplier {
+        left: 150px;
+    }
+
+    .forFree {
+        margin-left: 150px;
+    }
+
+    .shoppingBasketScroll {
+        width: calc(100% - 70vw);
+    }
+
+    .shoppingBasket {
+        display: none;
+    }
+
+    .leftAndRightSide {
+        display: block;
+    }
+
+    .aroundContainerBelowFirstImg {
+        width: 100%;
+    }
+
+    .containerBelowFirstImg {
+        width: 75vw;
+        margin-left: 100px;
+        margin-right: auto;
+    }
+
+    .menu {
+        width: 75vw;
+        margin-left: 100px;
+        margin-right: auto;
+    }
+
+    .shoppingBasketScroll {
+        width: 0;
+    }
+
+    .supplierNamePlusButtons {
+        width: 75vw;
+    }
+
+    .delivery {
+        padding-left: 0;
+        width: 75vw;
+    }
+
+    .forFree {
+        margin-left: 0px;
+    }
+
+    .rating {
+        padding-left: 0;
+    }
+
+    .supplierNamePlusButtons {
+        padding-left: 0;
+    }
+
+    .logoSupplier {
+        left: 100px;
+    }
+
+    .moveUpButton {
+        bottom: 11vh;
+    }
+
+    .shoppingBasketBoxResponsive {
+        display: flex;
+    }
+
+    .shoppingBasketButtonResponsive {
+        display: flex;
+    }
+
+    .addBasket {
+        width: 100%;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    .headerBasket {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .closeHeaderBasket {
+        display: unset;
+    }
+
+    .orderButton {
+        width: 90vw;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media (max-width: 875px) {
+    .containerBelowFirstImg {
+        width: 70vw;
+    }
+
+    .menu {
+        margin-left: 100px;
+    }
+
+    .supplierNamePlusButtons {
+        padding-left: 0px;
+    }
+
+    .rating {
+        padding-left: 0px;
+    }
+
+    .delivery {
+        padding-left: 0px;
+    }
+
+    .logoSupplier {
+        left: 100px;
+    }
+
+    .forFree {
+        margin-left: 0px;
+    }
+
+    .shoppingBasketScroll {
+        width: calc(100% - 70vw);
+    }
+}
+
+@media (max-width: 650px) {
+    .containerBelowFirstImg {
+        margin-left: 50px;
+    }
+
+    .menu {
+        margin-left: 50px;
+    }
+
+    .logoSupplier {
+        left: 50px;
+    }
+
+    .headerLogoPlusText h1 {
+        display: none;
+    }
+
+    .moveUpButton {
+        left: 5px;
+    }
+
+    .moveUpButton img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .menuFood {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 370px) {
+    .containerBelowFirstImg {
+        margin-left: 50px;
+        width: 75vw;
+    }
+
+    .supplierNamePlusButtons {
+        width: 75vw;
+    }
+
+    .supplierNamePlusButtons img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .buttonsBelowFirstImg div {
+        width: 20px;
+        height: 20px;
+    }
+
+    .menuFood {
+        font-size: 16px;
+    }
+
+    .buttonsBelowFirstImg {
+        width: 75px;
+    }
+
+    .menu {
+        margin-left: 50px;
+        width: 75vw;
+    }
+
+    .delivery div {
+        margin-right: 2px;
+    }
+
+    .menuRow {
+        padding: 10px;
+    }
+
+    .logoSupplier {
+        left: 50px;
+    }
+
+    .delivery {
+        font-size: 13px;
+        width: 75px;
+    }
+}

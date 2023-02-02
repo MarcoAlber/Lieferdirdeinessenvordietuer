@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <script src="./json.js"></script>
+    <script src="./templates.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+    <link href="./fonts/fonts.css" rel="stylesheet">
+    <title>Lieferdirdeinessenvordietür</title>
+</head>
+
+<body onload="render()">
+
+    <nav id="header" class="header">
+        <div class="headerLogoPlusText">
+            <div>
+                <img src="./icons/restaurant-3-64.png" alt="Logo">
+            </div>
+            <h1>Lieferdirdeinessenvordietür</h1>
+        </div>
+        <span>
+            <b>Speisekarte</b>
+        </span>
+        <div>
+            <img class="menuButtonImg" src="./icons/menu-4-64.png" alt="Menü">
+        </div>
+    </nav>
+
+    <div id="mainContent" class="leftAndRightSide">
+        <div style="background-color: #FCFCFC">
+            <img class="firstImg" src="./img/burger.jpg" alt="Hauptgericht">
+
+            <div class="logoSupplier">
+                <img src="./img/viadeo-512.png" alt="LogoLieferant">
+            </div>
+
+            <div class="aroundContainerBelowFirstImg">
+                <div class="containerBelowFirstImg">
+
+                    <div class="supplierNamePlusButtons">
+                        <span>JSON Burger</span>
+                        <div class="buttonsBelowFirstImg">
+                            <div><img src="./icons/info-2-64.png" alt="Info"></div>
+                            <div id="heart"></div>
+                        </div>
+                    </div>
+
+                    <div class="rating">
+                        <div><img src="./icons/star-8-64.png" alt="Stern"></div>
+                        <div><img src="./icons/star-8-64.png" alt="Stern"></div>
+                        <div><img src="./icons/star-8-64.png" alt="Stern"></div>
+                        <div><img src="./icons/star-8-64.png" alt="Stern"></div>
+                        <div><img src="./icons/half-star-64.png" alt="Stern"></div>
+                        <span>75 Bewertungen</span>
+                    </div>
+
+                    <div class="delivery">
+                        <div><img class="devliveryImg" src="./icons/clock-7-64.png" alt="Zeit"><span>55-80min</span>
+                        </div>
+                        <div><img class="point" src="./icons/circle-64.png" alt="Punkt"><img class="devliveryImg"
+                                src="./icons/scooter-2-64.png" alt="Lieferkosten"><span>5,99€</span>
+                        </div>
+                        <div><img class="point" src="./icons/circle-64.png" alt="Punkt"><img class="devliveryImg"
+                                src="./icons/cart-12-64.png" alt="Mindestbestellwert"><span>Min. 20,00€</span>
+                        </div>
+                    </div>
+                    <span class="forFree">Kostenlose Lieferung ab 35,00€</span>
+                </div>
+            </div>
+
+            <div class="menu">
+                <h2>Premium Burger</h2>
+                <div id="menuRow">
+
+                </div>
+                <div onclick="moveUp()" id="moveUp" class="moveUpButton dp-none"><img src="./icons/arrow-25-64.png">
+                </div>
+                <div id="shoppingBasketResponsive">
+
+                </div>
+            </div>
+        </div>
+        <div id="shoppingBasket" class="shoppingBasket">
+            <div class="headerBasket">
+                <h2>Warenkorb</h2>
+                <img id="closeHeaderBasket" class="closeHeaderBasket dp-none" onclick="closeBasketResponsive()" src="./icons/x-mark-64.png">
+            </div>
+            <div id="emptyBasket" class="emptyBasket">
+                <img src="./icons/cart-12-64.png" alt="Warenkorb">
+                <span style="font-size: 20px"><b>Fülle deinen Warenkorb</b></span>
+                <span style="margin-top: 5px;">Füge einige leckere Gerichte aus der Speisekarte hinzu und bestelle dein
+                    Essen.</span>
+            </div>
+
+            <div id="shoppingBasketAdd">
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <span class="span-icon">Quelle aller genutzten Icons: <a
+                href="https://www.iconsdb.com">https://www.iconsdb.com<a></span><br>
+        <span class="span-icon">Quelle Favicon: <a
+                href="https://www.ionos.at/tools/favicon-generator">https://www.ionos.at/tools/favicon-generator<a></span>
+    </footer>
+
+</body>
+
+</html>
